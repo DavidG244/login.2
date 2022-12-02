@@ -93,7 +93,8 @@ input {
     font-size: 16px;
 }
 
-.resgistrar input[type="submit"] {
+.resgistrar button {
+    margin: 20px;
     border: none;
     background: #85586F;
     color: #DEB6AB;
@@ -101,9 +102,11 @@ input {
     top: 55%;
     font-size: 18px;
     border-radius: 20px;
+    width: 130px;
+    height: 30px;
 }
 
-.resgistrar input[type="submit"]:hover {
+.resgistrar button:hover {
     cursor: pointer;
     background: #DEB6AB;
     color: #85586F;
